@@ -10,7 +10,7 @@ int main(void)
 	char hex[16] = "0123456789abcdef";
 	int i;
 
-	for (i =0; i < 16; i++)
+	for (i = 0; i < 16; i++)
 	{
 		putchar(hex[i]);
 	}
