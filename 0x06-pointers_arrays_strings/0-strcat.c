@@ -1,8 +1,3 @@
-/*
- * File: 0-strcat.c
- * Auth: Reward Mucheche
- */
-
 #include "main.h"
 
 /**
