@@ -11,7 +11,7 @@
  * @accept: set of bytes to be searched for.
  *
  * Return: if a set is matched - pointer to matched byte.
- *
+ *	if no set is matched - NULL.
  */
 char *_strbrk(char *s, char *accept)
 {

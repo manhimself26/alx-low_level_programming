@@ -7,7 +7,7 @@
 
 /**
  * _memcpy - copies @n bytes from the memory area pointed
- * 	to by @src into that pointed to by @dest.
+ *	to by @src into that pointed to by @dest.
  * @dest: pointer to the memory area to copy @src into.
  * @src: source buffer to copy characters from.
  * @n: number of bytes to copy from @src.
