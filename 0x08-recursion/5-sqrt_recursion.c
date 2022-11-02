@@ -5,7 +5,7 @@
 
 #include "main.h"
 
-int find_return(int num, int root);
+int find_sqrt(int num, int root);
 int _sqrt_recursion(int n);
 
 /**
