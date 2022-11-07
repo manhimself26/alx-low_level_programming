@@ -12,16 +12,16 @@
  *
  * Return: always 0
  */
-int main(int  argc, char *argv[])
+int main(int  argc, char **argv)
 {
-	/*declaring variables*/
+	int i = 0;
 
-	int count = 0;
-
-	if (argc > 0)
+	while (argc--)
 	{
-		while (count < argc)
-			printf("%s\n", argv[count]);
+		printf("%s\n", argv[i]);
+		i++;
 	}
+
+	return (0);
 }
 
