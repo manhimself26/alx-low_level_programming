@@ -7,9 +7,9 @@
  * @size: size of array.
  * @c: character to initialize with.
  *
- * Retun: pointer
+ * Return: pointer
  */
-char *create_array(unsigned int size, char c);
+char *create_array(unsigned int size, char c)
 {
 	char *buffer;
 	unsigned int position;
