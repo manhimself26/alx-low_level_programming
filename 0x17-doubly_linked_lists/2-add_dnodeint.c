@@ -1,10 +1,13 @@
+
 #include "lists.h"
 
 /**
- * add_dnodeint - adds a new node at beginning of dlistint_t
- * @head: pointer to the head of dlistint_t
- * @n: integer
- * Return: if the function fails - NULL
+ * add_dnodeint - Adds a new node at the beginning of a dlistint_t list.
+ * @head: A pointer to the head of the dlistint_t list.
+ * @n: The integer for the new node to contain.
+ *
+ * Return: If the function fails - NULL.
+ *         Otherwise - the address of the new node.
  */
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
